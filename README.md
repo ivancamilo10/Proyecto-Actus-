@@ -1,2 +1,2 @@
-# Proyecto-Actus-
+# Proyecto-Actus
 software para grupo de teatro
