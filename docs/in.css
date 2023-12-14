@@ -1,0 +1,34 @@
+#mi-navbar {
+    background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   }
+
+#footeeer{
+    background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+body{
+    background-image: url("ticket-2974645_1280.jpg");
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* altura completa de la ventana del navegador */
+   }
+   .footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* separación entre los iconos */
+   }
+   
+   .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
