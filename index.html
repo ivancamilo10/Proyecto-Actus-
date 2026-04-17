@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corpus Actus - Grupo de Teatro Juvenil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/docs/in.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<nav id="navbar">
+  <div class="nav-wrap">
+    <a href="#inicio" class="brand">
+      <img src="/docs/logo.png" alt="Logo" width="50" >
+      <span class="brand-text">Corpus <em>Actus</em></span>
+    </a>
+    <div class="nav-center" id="nav-center">
+      <a href="#inicio"    class="nav-link active">Inicio</a>
+      <a href="#cartelera" class="nav-link">Cartelera</a>
+      <a href="#nosotros"  class="nav-link">Nosotros</a>
+      <a href="#historia"  class="nav-link">Historia</a>
+      <a href="#contacto"  class="nav-link">Contacto</a>
+    </div>
+    <div class="nav-right">
+     
+      <a href="#contacto" class="btn-ticket">Contáctanos</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#inicio"    class="mob-link">Inicio</a>
+    <a href="#cartelera" class="mob-link">Cartelera</a>
+    <a href="#nosotros"  class="mob-link">Nosotros</a>
+    <a href="#historia"  class="mob-link">Historia</a>
+    <a href="#contacto"  class="mob-link">Contacto</a>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section id="inicio" class="hero">
+  <div class="hero-bg-wrap">
+    <img src="car1.jpg" alt="" class="hero-bg-img">
+    <div class="hero-curtain left"></div>
+    <div class="hero-curtain right"></div>
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      MAS RELEVANTES
+    </div>
+    <h1 class="hero-title">
+      La Pasión y<br>
+      <em>Muerte de Cristo</em>
+    </h1>
+    <p class="hero-desc">Una puesta en escena solemne y profunda que revive los momentos más trascendentales. Con elenco numeroso, escenografía elaborada y música original.</p>
+    <div class="hero-actions">
+      <a href="#contacto" class="btn-primary">Reserva tu Lugar</a>
+      <a href="#cartelera" class="btn-ghost">Ver Cartelera</a>
+    </div>
+    <div class="hero-dur">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      2h 30min
+    </div>
+  </div>
+</section>
+
+<!-- ══ CARTELERA ══ -->
+<section id="cartelera" class="section cartelera">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <h2 class="sec-title">Cartelera</h2>
+        <p class="sec-sub">PRÓXIMAS FUNCIONES · TEMPORADA 2024</p>
+      </div>
+      <div class="arrows">
+        <button class="arr" id="prev" aria-label="Anterior">&#8592;</button>
+        <button class="arr" id="next" aria-label="Siguiente">&#8594;</button>
+      </div>
+    </div>
+    <div class="track-outer">
+      <div class="track" id="track">
+        <article class="obra-card">
+          <div class="obra-img">
+            <span class="obra-tag">Drama Sacro</span>
+            <img src="car2.jpg" alt="La Pasión y Muerte de Cristo">
+          </div>
+          <div class="obra-body">
+            <h3>La Pasión y Muerte de Cristo</h3>
+            <p>La obra cumbre del grupo. Una experiencia espiritual y teatral que conmueve generaciones enteras.</p>
+            <div class="obra-foot">
+              <span class="obra-date">Mar — Abr 2024</span>
+              <a href="#contacto" class="obra-cta">Detalles →</a>
+            </div>
+          </div>
+        </article>
+        <article class="obra-card">
+          <div class="obra-img">
+            <span class="obra-tag">Drama</span>
+            <img src="car3.jpg" alt="Voces del Silencio">
+          </div>
+          <div class="obra-body">
+            <h3>Voces del Silencio</h3>
+            <p>Monólogos entrelazados sobre la soledad y la conexión humana. Intimidad sobre el escenario.</p>
+            <div class="obra-foot">
+              <span class="obra-date">May — Jun 2024</span>
+              <a href="#contacto" class="obra-cta">Detalles →</a>
+            </div>
+          </div>
+        </article>
+        <article class="obra-card">
+          <div class="obra-img">
+            <span class="obra-tag">Comedia</span>
+            <img src="car1.jpg" alt="Raíces">
+          </div>
+          <div class="obra-body">
+            <h3>Raíces</h3>
+            <p>Una celebración de la identidad y tradiciones locales con humor, irreverencia y corazón.</p>
+            <div class="obra-foot">
+              <span class="obra-date">Jul — Ago 2024</span>
+              <a href="#contacto" class="obra-cta">Detalles →</a>
+            </div>
+          </div>
+        </article>
+        <article class="obra-card">
+          <div class="obra-img">
+            <span class="obra-tag">Clásico</span>
+            <img src="car2.jpg" alt="El Gran Inquisidor">
+          </div>
+          <div class="obra-body">
+            <h3>El Gran Inquisidor</h3>
+            <p>Adaptación del célebre fragmento de Dostoievski. Poder, fe y libertad en un duelo de palabras.</p>
+            <div class="obra-foot">
+              <span class="obra-date">Sep — Oct 2024</span>
+              <a href="#contacto" class="obra-cta">Detalles →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ NOSOTROS / LEGADO ══ -->
+<section id="nosotros" class="section legado">
+  <div class="wrap legado-inner">
+    <div class="legado-img-col">
+      <img src="car3.jpg" alt="Corpus Actus en escena" class="legado-img">
+      <div class="legado-deco"></div>
+    </div>
+    <div class="legado-text-col">
+      <p class="eyebrow">EST. 2010</p>
+      <h2 class="legado-h">Un legado de<br><em>Autenticidad</em></h2>
+      <div class="rule"></div>
+      <div class="legado-cols-text">
+        <p>Corpus Actus nació del deseo de crear un espacio donde los jóvenes pudieran descubrir el poder transformador del teatro. Desde el primer ensayo, supimos que no sería solo un grupo: sería una familia, una escuela, un movimiento.</p>
+        <p>Nuestra arquitectura artística —construida con disciplina, riesgo y pasión— nos ha convertido en referente del teatro juvenil. Cada obra que montamos es un acto de valentía colectiva.</p>
+      </div>
+      <a href="#historia" class="legado-link">Descubre Nuestra Historia →</a>
+      <div class="stats">
+        <div class="stat-item">
+          <span class="stat-n">10+</span>
+          <span class="stat-l">Años en escena</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat-item">
+          <span class="stat-n">30+</span>
+          <span class="stat-l">Producciones</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat-item">
+          <span class="stat-n">500+</span>
+          <span class="stat-l">Presentaciones</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ HISTORIA ══ -->
+<section id="historia" class="section historia">
+  <div class="wrap">
+    <p class="eyebrow center">Nuestra Historia</p>
+    <h2 class="sec-title center">Acto a <em>acto</em>, escena a escena</h2>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-left">
+          <span class="tl-year">2010</span>
+        </div>
+        <div class="tl-mid">
+          <div class="tl-dot"></div>
+        </div>
+        <div class="tl-right">
+          <h3>El Primer Telón</h3>
+          <p>Un grupo de jóvenes apasionados levanta el primer telón. Con pocos recursos pero una inmensa voluntad, ponen en pie la primera producción de Corpus Actus y abren la puerta a todo lo que vendría.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-left">
+          <span class="tl-year">2014</span>
+        </div>
+        <div class="tl-mid">
+          <div class="tl-dot"></div>
+        </div>
+        <div class="tl-right">
+          <h3>La Pasión y Muerte de Cristo</h3>
+          <p>La producción que cambió todo. Con más de veinte actores, música original y escenografía elaborada, esta obra se convierte en la insignia del grupo y conquista al público de la región.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-left">
+          <span class="tl-year">2018</span>
+        </div>
+        <div class="tl-mid">
+          <div class="tl-dot"></div>
+        </div>
+        <div class="tl-right">
+          <h3>Consolidación y Reconocimiento</h3>
+          <p>Las producciones se vuelven más ambiciosas. El grupo gana reconocimiento en festivales regionales y comienza a formar nuevas generaciones de artistas escénicos.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-left">
+          <span class="tl-year">Hoy</span>
+        </div>
+        <div class="tl-mid">
+          <div class="tl-dot"></div>
+        </div>
+        <div class="tl-right">
+          <h3>Un Presente Vibrante</h3>
+          <p>Corpus Actus sigue siendo referente del teatro juvenil. Formamos artistas, exploramos géneros y mantenemos viva la llama de un arte que transforma personas y comunidades.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ GALERÍA ══ -->
+<section class="section galeria">
+  <div class="wrap">
+    <p class="eyebrow center">Galería</p>
+    <h2 class="sec-title center">La magia <em>detrás del telón</em></h2>
+    <div class="gal-grid">
+      <div class="gal-item tall"><img src="car1.jpg" alt=""></div>
+      <div class="gal-item"><img src="car2.jpg" alt=""></div>
+      <div class="gal-item"><img src="car3.jpg" alt=""></div>
+      <div class="gal-item wide"><img src="car2.jpg" alt=""></div>
+      <div class="gal-item"><img src="car1.jpg" alt=""></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA BANNER ══ -->
+<section class="cta-banner">
+  <div class="cta-overlay"></div>
+  <div class="cta-inner">
+    <div>
+      <h2>Sé parte de <em>Corpus Actus</em></h2>
+      <p>Únete, asiste a nuestras funciones y vive el teatro desde adentro.</p>
+    </div>
+    <div class="cta-btns">
+      <a href="#contacto" class="btn-primary">Escríbenos</a>
+      <a href="https://www.instagram.com/grupodeteatrojuvenil_actus/" target="_blank" class="btn-ghost-light">Síguenos</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACTO ══ -->
+<section id="contacto" class="section contacto">
+  <div class="wrap contacto-inner">
+    <div class="contacto-info">
+      <p class="eyebrow">Contacto</p>
+      <h2 class="sec-title">Hablemos<br><em>entre bastidores</em></h2>
+      <p class="contacto-p">¿Quieres ser parte de nuestra historia, invitarnos a una función o simplemente saber más? Escríbenos.</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/grupodeteatrojuvenil_actus/" target="_blank" class="soc-row">
+          <img src="icons8-instagram-48.png" alt="Instagram">
+          <span>@grupodeteatrojuvenil_actus</span>
+        </a>
+        <a href="https://www.facebook.com/p/Grupo-De-Teatro-Juvenil-ACTUS-100066515452248/" target="_blank" class="soc-row">
+          <img src="icons8-facebook-64.png" alt="Facebook">
+          <span>Grupo De Teatro Juvenil ACTUS</span>
+        </a>
+      </div>
+    </div>
+    <form class="c-form" onsubmit="handleForm(event)">
+      <div class="field">
+        <label>Nombre</label>
+        <input type="text" placeholder="Tu nombre completo" required>
+      </div>
+      <div class="field">
+        <label>Correo electrónico</label>
+        <input type="email" placeholder="tu@correo.com" required>
+      </div>
+      <div class="field">
+        <label>Mensaje</label>
+        <textarea rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
+      </div>
+      <button type="submit" class="btn-primary full">Enviar mensaje</button>
+      <p id="form-msg" class="form-msg"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="/docs/logo.png" alt="Corpus Actus" width="40">
+      <span>Corpus <em>Actus</em></span>
+    </div>
+    <nav class="footer-nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#cartelera">Cartelera</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#historia">Historia</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="footer-socials">
+      <a href="https://www.instagram.com/grupodeteatrojuvenil_actus/" target="_blank">
+        <img src="/docs/icons8-instagram-48.png" alt="Instagram" width="22">
+      </a>
+      <a href="https://www.facebook.com/p/Grupo-De-Teatro-Juvenil-ACTUS-100066515452248/" target="_blank">
+        <img src="/docs/icons8-facebook-64.png" alt="Facebook" width="22">
+      </a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Corpus Actus. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="/docs/main.js"></script>
+</body>
+</html>
